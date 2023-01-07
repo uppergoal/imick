@@ -1,0 +1,211 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .animation-delay-2000 {
+    animation-delay: 2s;
+  }
+  .animation-delay-4000 {
+    animation-delay: 4s;
+  }
+}
+
+@layer base {
+  /* CabinetGrotesk */
+  /* Thin */
+  @font-face {
+    font-family: "AzeretMono";
+    font-weight: 100;
+    src: url("~/assets/font/AzeretMono-Thin.otf");
+  }
+  @font-face {
+    font-family: "AzeretMono";
+    font-weight: 100;
+    src: url("~/assets/font/AzeretMono-ThinItalic.otf");
+    font-style: italic;
+  }
+  /* Extra-light */
+  @font-face {
+    font-family: "AzeretMono";
+    font-weight: 200;
+    src: url("~/assets/font/AzeretMono-ExtraLight.otf");
+  }
+  @font-face {
+    font-family: "AzeretMono";
+    font-weight: 200;
+    src: url("~/assets/font/AzeretMono-ExtraLightItalic.otf");
+    font-style: italic;
+  }
+  /* Light */
+  @font-face {
+    font-family: "AzeretMono";
+    font-weight: 300;
+    src: url("~/assets/font/AzeretMono-Light.otf");
+  }
+  @font-face {
+    font-family: "AzeretMono";
+    font-weight: 300;
+    src: url("~/assets/font/AzeretMono-LightItalic.otf");
+    font-style: italic;
+  }
+  /* Regular */
+  @font-face {
+    font-family: "AzeretMono";
+    font-weight: 400;
+    src: url("~/assets/font/AzeretMono-Regular.otf");
+  }
+  @font-face {
+    font-family: "AzeretMono";
+    font-weight: 400;
+    src: url("~/assets/font/AzeretMono-Italic.otf");
+    font-style: italic;
+  }
+  /* Medium */
+  @font-face {
+    font-family: "AzeretMono";
+    font-weight: 500;
+    src: url("~/assets/font/AzeretMono-Medium.otf");
+  }
+  @font-face {
+    font-family: "AzeretMono";
+    font-weight: 500;
+    src: url("~/assets/font/AzeretMono-MediumItalic.otf");
+    font-style: italic;
+  }
+  /* Bold */
+  @font-face {
+    font-family: "AzeretMono";
+    font-weight: 700;
+    src: url("~/assets/font/AzeretMono-Bold.otf");
+  }
+  @font-face {
+    font-family: "AzeretMono";
+    font-weight: 700;
+    src: url("~/assets/font/AzeretMono-BoldItalic.otf");
+    font-style: italic;
+  }
+  /* Extra-Bold */
+  @font-face {
+    font-family: "AzeretMono";
+    font-weight: 800;
+    src: url("~/assets/font/AzeretMono-ExtraBold.otf");
+  }
+  @font-face {
+    font-family: "AzeretMono";
+    font-weight: 800;
+    src: url("~/assets/font/AzeretMono-ExtraBoldItalic.otf");
+    font-style: italic;
+  }
+  /* Black */
+  @font-face {
+    font-family: "AzeretMono";
+    font-weight: 900;
+    src: url("~/assets/font/AzeretMono-Black.otf");
+  }
+  @font-face {
+    font-family: "AzeretMono";
+    font-weight: 900;
+    src: url("~/assets/font/AzeretMono-BlackItalic.otf");
+    font-style: italic;
+  }
+
+  /* Inter */
+
+  /* Thin */
+  @font-face {
+    font-family: "Supreme";
+    font-weight: 100;
+    src: url("~/assets/font/Supreme-Thin.otf");
+  }
+  @font-face {
+    font-family: "Supreme";
+    font-weight: 100;
+    src: url("~/assets/font/Supreme-ThinItalic.otf");
+    font-style: italic;
+  }
+  /* Extra-light */
+  @font-face {
+    font-family: "Supreme";
+    font-weight: 200;
+    src: url("~/assets/font/Supreme-ExtraLight.otf");
+  }
+  @font-face {
+    font-family: "Supreme";
+    font-weight: 200;
+    src: url("~/assets/font/Supreme-ExtraLightItalic.otf");
+    font-style: italic;
+  }
+  /* Light */
+  @font-face {
+    font-family: "Supreme";
+    font-weight: 300;
+    src: url("~/assets/font/Supreme-Light.otf");
+  }
+  @font-face {
+    font-family: "Supreme";
+    font-weight: 300;
+    src: url("~/assets/font/Supreme-LightItalic.otf");
+    font-style: italic;
+  }
+  /* Regular */
+  @font-face {
+    font-family: "Supreme";
+    font-weight: 400;
+    src: url("~/assets/font/Supreme-Regular.otf");
+  }
+  @font-face {
+    font-family: "Supreme";
+    font-weight: 400;
+    src: url("~/assets/font/Supreme-Italic.otf");
+    font-style: italic;
+  }
+  /* Medium */
+  @font-face {
+    font-family: "Supreme";
+    font-weight: 500;
+    src: url("~/assets/font/Supreme-Medium.otf");
+  }
+  @font-face {
+    font-family: "Supreme";
+    font-weight: 500;
+    src: url("~/assets/font/Supreme-MediumItalic.otf");
+    font-style: italic;
+  }
+  /* Bold */
+  @font-face {
+    font-family: "Supreme";
+    font-weight: 700;
+    src: url("~/assets/font/Supreme-Bold.otf");
+  }
+  @font-face {
+    font-family: "Supreme";
+    font-weight: 700;
+    src: url("~/assets/font/Supreme-BoldItalic.otf");
+    font-style: italic;
+  }
+  /* Extra-Bold */
+  @font-face {
+    font-family: "Supreme";
+    font-weight: 800;
+    src: url("~/assets/font/Supreme-Extrabold.otf");
+  }
+  @font-face {
+    font-family: "Supreme";
+    font-weight: 800;
+    src: url("~/assets/font/Supreme-ExtraboldItalic.otf");
+    font-style: italic;
+  }
+  /* Black */
+  @font-face {
+    font-family: "Supreme";
+    font-weight: 900;
+    src: url("~/assets/font/Supreme-Black.otf");
+  }
+  @font-face {
+    font-family: "Supreme";
+    font-weight: 900;
+    src: url("~/assets/font/Supreme-BlackItalic.otf");
+    font-style: italic;
+  }
+}
