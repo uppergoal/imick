@@ -1,0 +1,5 @@
+addedOn: 2022-12-10
+name: Svelte.js
+logo: sveltejs.svg
+website: https://svelte.dev/
+summary: A modern JavaScript framework for building fast and reactive web applications. It focuses on performance by compiling components at build time, rather than using runtime code interpretation.
