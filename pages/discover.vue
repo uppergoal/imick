@@ -1,6 +1,7 @@
 <script lang="ts" setup>
 const route = useRoute();
 
+// Using Nuxt content
 const { data: groups, pending: pendingGroup } = await useAsyncData(
   "tools-groups",
   async () =>
