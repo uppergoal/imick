@@ -26,11 +26,11 @@
     font-style: italic;
   }
   /* Extra-light */
-  /* @font-face {
+  @font-face {
     font-family: "AzeretMono";
     font-weight: 200;
     src: url("~/assets/font/AzeretMono-ExtraLight.otf");
-  } */
+  }
   @font-face {
     font-family: "AzeretMono";
     font-weight: 200;
@@ -125,11 +125,11 @@
     font-style: italic;
   }
   /* Extra-light */
-  @font-face {
+  /* @font-face {
     font-family: "Supreme";
     font-weight: 200;
     src: url("~/assets/font/Supreme-ExtraLight.otf");
-  }
+  } */
   @font-face {
     font-family: "Supreme";
     font-weight: 200;
