@@ -196,16 +196,4 @@
     src: url("~/assets/font/Supreme-ExtraboldItalic.otf");
     font-style: italic;
   }
-  /* Black */
-  @font-face {
-    font-family: "Supreme";
-    font-weight: 900;
-    src: url("~/assets/font/Supreme-Black.otf");
-  }
-  @font-face {
-    font-family: "Supreme";
-    font-weight: 900;
-    src: url("~/assets/font/Supreme-BlackItalic.otf");
-    font-style: italic;
-  }
 }
