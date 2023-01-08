@@ -8,4 +8,7 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
+  build: {
+    transpile: ["@headlessui/vue"],
+  },
 });
