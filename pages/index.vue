@@ -1,9 +1,4 @@
 <script lang="ts" setup>
-import {
-  ArrowTopRightOnSquareIcon,
-  BookmarkIcon,
-} from "@heroicons/vue/24/outline";
-
 const { data, pending } = await useAsyncData("languages", async () =>
   queryContent("/languages")
     .where({ _file: { $not: { $contains: "index.yml" } } })
@@ -23,7 +18,10 @@ const { data, pending } = await useAsyncData("languages", async () =>
             class="relative px-7 py-4 bg-slate-50 rounded-lg leading-none flex items-center divide-x divide-gray-600"
           >
             <span class="flex items-center space-x-5">
-              <BookmarkIcon class="text-teal-500 h-6 w-6 stroke-2" />
+              <Icon
+                name="heroicons:bookmark"
+                class="text-teal-500 h-6 w-6 stroke-2"
+              />
               <span class="pr-6 text-slate-700">New Video on Node.js</span>
             </span>
             <span
@@ -91,7 +89,11 @@ const { data, pending } = await useAsyncData("languages", async () =>
         target="_blank"
         class="uppercase tracking-widest text-slate-400 text-sm inline-flex items-center hover:underline duration-300 ease-in-out transition"
       >
-        Inspired by Streaks <ArrowTopRightOnSquareIcon class="h-4 w-4 ml-2" />
+        Inspired by Streaks
+        <Icon
+          name="heroicons:arrow-top-right-on-square-solid"
+          class="h-4 w-4 ml-2"
+        />
       </NuxtLink>
 
       <div class="flex justify-center gap-4">
