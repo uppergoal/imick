@@ -1,0 +1,28 @@
+<svg version="1.1" id="Layer_1" xmlns:x="ns_extend;" xmlns:i="ns_ai;" xmlns:graph="ns_graphs;" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 90.1 78" style="enable-background:new 0 0 90.1 78;" xml:space="preserve">
+ <style type="text/css">
+  .st0{fill:#1F65A6;}
+	.st1{fill:#328FF8;}
+	.st2{fill:#76C3FC;}
+ </style>
+ <metadata>
+  <sfw xmlns="ns_sfw;">
+   <slices>
+   </slices>
+   <sliceSourceBounds bottomLeftOrigin="true" height="78" width="90.1" x="363" y="500.8">
+   </sliceSourceBounds>
+  </sfw>
+ </metadata>
+ <g>
+  <path class="st0" d="M7,61.8l0.4,0.1c5.2,1.7,10.8-1,12.4-6l5.9-19.3c1.6-5-1.4-10.4-6.6-12.1l-0.4-0.1c-5.2-1.7-10.8,1-12.4,6
+		L0.4,49.7C-1.2,54.6,1.8,60.1,7,61.8z">
+  </path>
+  <path class="st1" d="M45.4,64.7c1.2-2.9,2.1-6.2,3.1-9.1c2.1-6.5,3.9-13.1,5.9-19.6c0.8-2.7,1.7-5.5,2.5-8.2
+		c1.8-5.7-1-11.7-6.2-13.4l-0.4-0.1c-5.2-1.7-10.9,1.6-12.8,7.2L26.2,58.6c-1.5,4.8-5.2,8.3-9.4,9.6c-0.3,0.1-0.7,0.2-1,0.3
+		c-2.2,0.5-4.4,0.5-6.6-0.3l-0.4-0.1c-0.3-0.1-0.7-0.3-1-0.4c2.3,3.3,6.9,6.8,12.4,8.6c6,2,13,1.1,18.2-2.5
+		C41.7,71.5,43.8,68.4,45.4,64.7z">
+  </path>
+  <path class="st2" d="M74.2,64.7c-0.4,1.2-7.2,18.9-28.8,11.5c0,0,4.4-1.4,5.9-6.5c0.7-2.5,6.9-23,6.9-23h0L70.2,6.5
+		c1.6-5,7.2-7.7,12.4-6L83,0.6c5.2,1.7,8.2,7.1,6.6,12.1L76.8,55.9C76.8,55.9,74.7,63.4,74.2,64.7z">
+  </path>
+ </g>
+</svg>

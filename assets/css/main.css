@@ -125,19 +125,19 @@
     font-style: italic;
   }
   /* Extra-light */
-  @font-face {
+  /* @font-face {
     font-family: "Supreme";
     font-weight: 200;
     src: url("~/assets/font/Supreme-ExtraLight.otf");
-  }
-  @font-face {
+  } */
+  /* @font-face {
     font-family: "Supreme";
     font-weight: 200;
     src: url("~/assets/font/Supreme-ExtraLightItalic.otf");
     font-style: italic;
-  }
+  } */
   /* Light */
-  @font-face {
+  /* @font-face {
     font-family: "Supreme";
     font-weight: 300;
     src: url("~/assets/font/Supreme-Light.otf");
@@ -147,9 +147,9 @@
     font-weight: 300;
     src: url("~/assets/font/Supreme-LightItalic.otf");
     font-style: italic;
-  }
+  } */
   /* Regular */
-  @font-face {
+  /* @font-face {
     font-family: "Supreme";
     font-weight: 400;
     src: url("~/assets/font/Supreme-Regular.otf");
@@ -159,9 +159,9 @@
     font-weight: 400;
     src: url("~/assets/font/Supreme-Italic.otf");
     font-style: italic;
-  }
+  } */
   /* Medium */
-  @font-face {
+  /* @font-face {
     font-family: "Supreme";
     font-weight: 500;
     src: url("~/assets/font/Supreme-Medium.otf");
@@ -171,9 +171,9 @@
     font-weight: 500;
     src: url("~/assets/font/Supreme-MediumItalic.otf");
     font-style: italic;
-  }
+  } */
   /* Bold */
-  @font-face {
+  /* @font-face {
     font-family: "Supreme";
     font-weight: 700;
     src: url("~/assets/font/Supreme-Bold.otf");
@@ -183,9 +183,9 @@
     font-weight: 700;
     src: url("~/assets/font/Supreme-BoldItalic.otf");
     font-style: italic;
-  }
+  } */
   /* Extra-Bold */
-  @font-face {
+  /* @font-face {
     font-family: "Supreme";
     font-weight: 800;
     src: url("~/assets/font/Supreme-Extrabold.otf");
@@ -195,5 +195,5 @@
     font-weight: 800;
     src: url("~/assets/font/Supreme-ExtraboldItalic.otf");
     font-style: italic;
-  }
+  } */
 }
