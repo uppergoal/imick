@@ -39,7 +39,7 @@ const { data, pending } = await useAsyncData("languages", async () =>
         <img src="~/assets/img/illustration-md.png" class="h-40 w-40 mx-auto" />
 
         <div class="mt-10">
-          <p class="text-8xl font-display font-medium">Hi, I'm Michael</p>
+          <p class="text-8xl font-display font-medium">Hi, I'm John</p>
           <p>I'm a full-stack developer</p>
         </div>
       </div>
